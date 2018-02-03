@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Input, Header } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react'
 
 import Filtros from './filtros';
 
@@ -20,7 +20,7 @@ export default class Assets extends Component {
 
     renderAssets() {
         return (
-            <div>grid de bens</div>
+            <div></div>
         )
     }
 
@@ -29,6 +29,7 @@ export default class Assets extends Component {
             <div>
                 <Header as='h3'>Lista de Bens</Header>
                 <Filtros fields={this.state.filtros} />
+                grid de bens
                 <ul>
                     {this.renderAssets()}
                 </ul>

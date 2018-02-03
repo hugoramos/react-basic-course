@@ -10,7 +10,7 @@ import Tickets from './components/tickets';
 ReactDOM.render(
     <BrowserRouter>
         <Sidebar.Pushable as={Segment} style={{ minHeight: 600 }}>
-            <Sidebar as={Menu} animation='push' width='thin' visible='true' icon='labeled' vertical inverted>
+            <Sidebar as={Menu} animation='push' width='thin' visible={true} icon='labeled' vertical inverted>
                 <Link to='/'>
                     <Menu.Item name='home'>
                         <Icon name='home' />
