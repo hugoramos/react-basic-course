@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
+import { Header } from 'semantic-ui-react'
 
 import '../style.css';
-import Ticket from './ticket';
-import Asset from './asset';
 
 export default class App extends Component {
     render() {
         return (
-            <div class='titulo'>
-                Bem vindo ao GoFix
-                <Ticket  />
-            </div>
+            <Header as='h3'>Bem vindo ao GoFix</Header>
         )
     }
 }

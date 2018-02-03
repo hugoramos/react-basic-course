@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
-export default class Ticket extends Component {
-
+export default class Botao extends Component {
     render() {
         return (
-            <li>{this.props.desc} </li>
+            <button>Enviar</button>
         )
     }
 }

@@ -5,3 +5,7 @@ h1 {
 .titulo {
     color: blue;
 }
+
+.fullHeight {
+    min-height: 100%;
+}
